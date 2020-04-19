@@ -1,7 +1,7 @@
 version: 1.0.1
 # 你的头像url
 avatar: /img/avatar.jpg
-favicon: /img/favicon.ico
+favicon: /img/avatar.jpg
 theme: hexo-theme-3-hexo
 
 plugins:
@@ -20,8 +20,8 @@ link:
     facebook: https://www.facebook.com/jacksoundsystem
     twitter:
     linkedin:
-    instagram: https://www.instagram.com/bimagv
-    reddit: https://www.reddit.com/user/bimagv/
+    instagram: 
+    reddit: 
     weibo: 
     jianshu: 
     zhihu: 
@@ -62,7 +62,7 @@ menu:
     url: /about  # 跳转链接
     type: 1 # 跳转类型 1：站内异步跳转 2：当前页面跳转 3：打开新的tab页
   friend: # '友链' 按钮
-    on: true # 是否展示
+    on: false # 是否展示
   menus: # 添加的其他菜单写在 menus 下，如下三个菜单：动态菜单1、动态菜单2、动态菜单3
     相册:
       on: false
@@ -78,16 +78,16 @@ menu:
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt:  You are welcome to sharing the article, and please indicate the source
+article_txt:  ©2020 ylog archive
 
-bottom_text: ©2020 ylog
+bottom_text: ©2018-2020
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
 reward: true
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -214,8 +214,8 @@ friends:
 
 ##########评论设置#############
 comment:
-  on: false
-  type: gitalk  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
+  on: true
+  type: disqus  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数
   preload_comment: false  # 预加载评论区
   ## false: 当点击评论条等区域时再加载评论模块
@@ -223,7 +223,7 @@ comment:
 # 各评论系统配置 ↓↓
 
 disqus:
-  shortname:
+  shortname: bimagv
   # disqus评论系统， 2016年9月被GFW认证，大陆不能使用。
   # 获取shortname：https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
 
@@ -234,13 +234,13 @@ gentie:
   # 网易云跟帖暂时不支持查询评论数，所以启用时，把评论数关掉，上方comment_count: false。
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
+  githubID: bimagv
+  repo: ylog
   ClientID:
   ClientSecret:
-  adminUser: yelog
+  adminUser: bimagv
   distractionFreeMode: true
-  language: zh-CN
+  language: en
   perPage: 10
 # gitalk：利用github issue制作的第三方聊天插件
 # https://github.com/gitalk/gitalk
@@ -255,8 +255,8 @@ gitalk:
 
 
 gitment:
-  owner: yelog
-  repo: yelog.github.io
+  owner: bimagv
+  repo: ylog
   client_id:
   client_secret:
   # gitment : 通过github issue实现的评论系统
