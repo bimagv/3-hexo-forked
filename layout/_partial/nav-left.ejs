@@ -41,11 +41,11 @@ if (theme.category && theme.category.sub) {
 
 %>
 <ul>
-    <li><div class="all active">All<% if (theme.category && theme.category.num) { %><small>(<%=site.posts.length%>)</small><%}%></div></li>
+    <li><div class="all active">All<% if (theme.category && theme.category.num) { %><small class="badge1" data-badge="<%=site.posts.length%>"></small><%}%></div></li>
     <% site.categories.forEach(function(category){ %>
         <% if (theme.category && theme.category.sub) { %>
             <% if(!category.parent) { %>
-            <li><div data-rel="<%=category.name%>"><% if (childCategory[category._id]) {%><i class="fold iconfont icon-right"></i><% } %><%=category.name%><% if (theme.category && theme.category.num) { %><small>(<%= category.posts.length %>)</small><%}%></div>
+            <li><div data-rel="<%=category.name%>"><% if (childCategory[category._id]) {%><i class="fold iconfont icon-right"></i><% } %><%=category.name%><% if (theme.category && theme.category.num) { %><small class="badge2" data-badge2="<%= category.posts.length %>"> </small><%}%></div>
                 <% if (childCategory[category._id]) {%>
                     <ul class="sub hide">
                         <% childCategory[category._id].forEach(function (child) { %>

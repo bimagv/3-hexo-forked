@@ -65,7 +65,6 @@
     margin 0
     padding 0
     font-size 17px
-    border-top 1px solid #fff
     list-style none
     overflow-y auto
     &.sub
@@ -84,8 +83,9 @@
           height 25px
     li
       line-height 40px
-      text-align center
-      border-bottom 1px solid #fff
+      font-size 15px
+      padding-left 13px
+      text-align left
       cursor pointer
       &>div
         height 40px
@@ -94,10 +94,12 @@
         position relative
         &:hover
           color #f7f7f7
-          box-shadow inset 6px 0 0 #fff
+          padding-left 10px
+          box-shadow inset 3px 0 0 #B8B8B8
         &.active
           color #020202
-          box-shadow inset 165px 0 0 #fff
+          box-shadow inset 165px 0 0 #B8B8B8
+          padding-left 20px
           position relative
         &>.fold
           left: 4px
@@ -132,3 +134,33 @@
         display: inline-block
       &.dynamic-menu
         display block
+
+.badge1[data-badge]:after 
+   content:attr(data-badge)
+   position absolute
+   top 8px
+   right 8px
+   font-size .7em
+   background #458588
+   color white
+   width 18px
+   height 18px
+   text-align center
+   line-height 18px
+   border-radius 50%
+   box-shadow 0 0 1px #333
+
+.badge2[data-badge2]:after 
+   content:attr(data-badge2)
+   position absolute
+   top 8px
+   right 8px
+   font-size .7em
+   background #1F1F1F
+   color white
+   width 18px
+   height 18px
+   text-align center
+   line-height 18px
+   border-radius 50%
+   box-shadow 0 0 1px #333
