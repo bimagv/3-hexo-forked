@@ -69,7 +69,7 @@
     overflow-y auto
     &.sub
       transition height .3s, border-top .3s
-      border-left: solid 2px red;
+      /*border-left: solid 3px #F7F7F7;*/
       overflow-y hidden
       &.hide
         height 0 !important
@@ -84,7 +84,7 @@
     li
       line-height 40px
       font-size 15px
-      padding-left 13px
+      padding-left 9px
       text-align left
       cursor pointer
       &>div
@@ -94,15 +94,16 @@
         position relative
         &:hover
           color #f7f7f7
-          padding-left 10px
-          box-shadow inset 3px 0 0 #B8B8B8
+          /*padding-left 10px
+          /*box-shadow inset 3px 0 0 #B8B8B8*/
         &.active
           color #020202
           box-shadow inset 165px 0 0 #B8B8B8
-          padding-left 20px
-          position relative
+          border-left: solid 3px #F7F7F7;
+          /*padding-left 20px
+          position relative*/
         &>.fold
-          left: 4px
+          left: 67px
           font-size 0.7em
           position: absolute
           transition transform .3s
@@ -148,15 +149,15 @@
    text-align center
    line-height 18px
    border-radius 50%
-   box-shadow 0 0 1px #333
+   box-shadow 0 0 1px #f7f7f7
 
-.badge2[data-badge2]:after 
+/*.badge2[data-badge2]:after 
    content:attr(data-badge2)
    position absolute
    top 8px
    right 8px
    font-size .7em
-   background #1F1F1F
+   background #664A52
    color white
    width 18px
    height 18px
@@ -164,3 +165,18 @@
    line-height 18px
    border-radius 50%
    box-shadow 0 0 1px #333
+
+.badge3[data-badge3]:after 
+   content:attr(data-badge3)
+   position absolute
+   top 5px
+   right 8px
+   font-size .7em
+   background white
+   color #664A52
+   width 18px
+   height 18px
+   text-align center
+   line-height 18px
+   border-radius 50%
+   box-shadow 0 0 1px #333*/
