@@ -29,11 +29,10 @@
             <%- partial('_partial/toc-ref', {index: true}) %>
             <%- partial('indexs.md') %>
         </article>
-        <% if(theme.reward){%>
+        <% if(theme.reward){%><!--
         <p>
-            <a  class="dashang" >..</a>
-            <!--class="dashang" onclick="dashangToggle()"-->
-        </p>
+            <a  class="dashang" onclick="dashangToggle()">赏</a>
+        </p>-->
         <%}%>
         <%- partial('_partial/comment', {post: {comments: true}, index: false})%>
     </div>

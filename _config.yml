@@ -78,9 +78,9 @@ menu:
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt:  ©2020 ylog archive
+#article_txt: Blog content to follow Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0 ) protocol
 
-bottom_text: ©2018-2020
+bottom_text: ©2018-2020 (Eight)log archive powered by Hexo
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 

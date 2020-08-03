@@ -26,7 +26,7 @@
     </div>
     <div class="article-meta">
         <% if (post.date){ %>
-        Date:<time class="date" title='更新时间: <%= date(post.updated, 'YYYY-MM-DD HH:mm:ss')%>'><%= date(post.date, 'YYYY-MM-DD HH:mm') %></time>
+        Date:<time class="date" title='Update time: <%= date(post.updated, 'MMM D, YYYY h:mm A')%>'><%= date(post.date, 'MMM D, YYYY h:mm A') %></time>
         <% } %>
     </div>
     <div class="article-meta">
@@ -46,16 +46,16 @@
         </span>
         <%}%>
         <%if(theme.comment.on && theme.comment.type && theme.comment.comment_count){%>
-        <span class="top-comment" title="跳转至评论区">
+        <!--<span class="top-comment" title="go to comment">
             <a href="#comments">
-                评论:<span class="count-comment">
+                review:<span class="count-comment">
                     <span class="spinner">
                       <div class="cube1"></div>
                       <div class="cube2"></div>
                     </span>
                 </span>
             </a>
-        </span>
+        </span>-->
         <%}%>
     </div>
     <%if(post.originUrl){%>
@@ -88,11 +88,10 @@
     </div>
 </article>
 
-<% if(theme.reward){%>
+<% if(theme.reward){%><!--
 <p>
-    <a  class="dashang" >..</a>
-    <!--class="dashang" onclick="dashangToggle()"-->
-</p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>-->
 <%}%>
 <%- partial('_partial/article_copyright')%>
 <%- partial('_partial/comment', {post: post, index: index})%>
