@@ -178,7 +178,7 @@
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-    font-family: monospace, monospace;
+    font-family: 'Fira Code', 'TypoPRO Fantasque Sans Mono', 'Roboto Mono', 'Ubuntu Mono', monospace;
     font-size: 1em;
 }
 
