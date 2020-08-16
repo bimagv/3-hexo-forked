@@ -2,28 +2,26 @@
 To create, organizing knowladge that very useful in future.
 
 # More and more data
-OneNote is one of the best notetaking application. You can make a lot of note with 
-
-And bye-bye OneNote, EverNote, or Notenote. I just migrate my note to a blog. 
+OneNote or P3X OneNote is one of the best notetaking application rich feature & modern UI. But, some note need to be placed in a blog to make it public. So that my friend can easily see it.
 
 >Is that cool?
 
-So whats wrong dude? they online too and stylish? why, ............
+So whats wrong dude? they online too? why, ............
 
 ![](img/cloud.jpg)
 
-Probably because they are spread on many place. It is often difficult for me to combine them, and there is no way to freely control the way information is organized, so we need space for my note collection.
+Probably because they are spread on many place. It is often difficult for me to combine them, and there is no way to freely control the way information is organized, so I need space for my note collection and centralize archive.
 
 Don't worry...
 
 >because it's "in the cloud"
 
-Then Patrick say: *Its just someone else's computer*
+Then Patrick say: *There is no cloud! Its just someone else's computer* *fuarkkk
 
 ## Comfortable with archive based blog
 When I create [bimagv.miraheze.org](https://bimagv.miraheze.org) I need to make note when offline, that troublesome too. 
 
-lucky Static Site generator (SSG) can make a deal with them. And also *OneNote like* theme I used, [hexo-theme-3](https://github.com/yelog/hexo-theme-3-hexo) 
+lucky Static Site generator (SSG) can make a deal with them. And also *OneNote like* theme I used with good indexing, [hexo-theme-3](https://github.com/yelog/hexo-theme-3-hexo) 
 
 With SSG I can ...
 
