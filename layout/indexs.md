@@ -27,8 +27,8 @@ lucky Static Site generator (SSG) can make a deal with them. And also *OneNote l
 
 With SSG I can ...
 
-* [x] I can make a note while offline with Vscode
-* [x] I can easily make a note with CMS with Forestry.io
+* [x] I can notetaking when offline with Vscode
+* [x] I can easily writing with Open Source CMS, Forestry.io
 * [x] I can use google analytics, so google can indexed my site
 * [x] I can get a lot of modification with hacking the theme :v
 * [x] It's time to start learn how to make a github pages, using pipelines, and many other to improve my knowledge that I want to share to you
