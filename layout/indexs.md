@@ -1,30 +1,38 @@
+# Why Blogging
+To create, organizing knowladge that very useful in future.
 
-
-# Why Blog
 # More and more data
-whereis my note?
+OneNote is one of the best notetaking application. You can make a lot of note with 
 
-OneNote, EverNote, and Notenote 
+And bye-bye OneNote, EverNote, or Notenote. I just migrate my note to a blog. 
 
-but, now too **mainstream** and not challenged.
+>Is that cool?
+
+So whats wrong dude? they online too and stylish? why, ............
 
 ![](img/cloud.jpg)
 
-They are spread on many place. It is often difficult for me to combine them, and there is no way to freely control the way information is organized, so we need space for my own blog.
+Probably because they are spread on many place. It is often difficult for me to combine them, and there is no way to freely control the way information is organized, so we need space for my note collection.
 
->because it's in the cloud
+Don't worry...
+
+>because it's "in the cloud"
+
+Then Patrick say: *Its just someone else's computer*
 
 ## Comfortable with archive based blog
+When I create [bimagv.miraheze.org](https://bimagv.miraheze.org) I need to make note when offline, that troublesome too. 
 
+lucky Static Site generator (SSG) can make a deal with them. And also *OneNote like* theme I used, [hexo-theme-3](https://github.com/yelog/hexo-theme-3-hexo) 
 
-```blogger/wordpress``` in my feel troublesome to manage.
+With SSG I can ...
 
-I prefer to ```MediaWiki``` or log archive 
+* [x] I can make a note while offline with Vscode
+* [x] I can easily make a note with CMS with Forestry.io
+* [x] I can use google analytics, so google can indexed my site
+* [x] I can get a lot of modification with hacking the theme :v
+* [x] It's time to start learn how to make a github pages, using pipelines, and many other to improve my knowledge that I want to share to you
 
-lucky I found #1 the best theme on [hexo](https://github.com/yelog/hexo-theme-3-hexo)
+Reference: [Hexo.io](https://hexo.io)
 
-* [x] beautifull indexing
-* [x] smart UI
-* [x] responsive
-
-That's all.
+That's all. Thank you
