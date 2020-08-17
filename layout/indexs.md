@@ -2,11 +2,11 @@
 To create, organizing knowladge that very useful in future.
 
 # More and more data
-OneNote or P3X OneNote is one of the best notetaking application rich feature & modern UI. But, I need a blog!... to make it public. So that my friend know what I share in blog post.
+OneNote or P3X OneNote is one of the best notetaking application rich feature & modern UI. But, I need a blog!... to make it public. So, My friend know what I share in blog post.
 
 >Is that cool?
 
-No, OneNote can do this and online too! what happened using that, ............
+Then Patrick says: *No, OneNote can do that because they are online! what the problem using this tool, ............*
 
 ![](img/cloud.jpg)
 
@@ -18,7 +18,7 @@ Need moore space dude? Don't worry...
 
 >because it's "in the cloud"
 
-Then Patrick say: *There is no cloud! Its just someone else's computer* *fuarkkk
+Then Patrick says: *There is no cloud! Its just someone else's computer* *fuarkkk
 
 ## Comfortable with archive based blog
 When I create [bimagv.miraheze.org](https://bimagv.miraheze.org) I need to make note when offline, that troublesome too. 
