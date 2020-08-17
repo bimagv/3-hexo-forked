@@ -6,7 +6,7 @@ OneNote or P3X OneNote is one of the best notetaking application rich feature & 
 
 >Is that cool?
 
-No, OneNote can do this and online too! why, ............
+No, OneNote can do this and online too! what happened using that, ............
 
 ![](img/cloud.jpg)
 
