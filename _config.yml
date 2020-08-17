@@ -35,10 +35,10 @@ link:
 
 ##########多作者模式############
 author:
-  on: false
+  on: true
   authors:
-    author1: jack the man
-    author2: bima
+    author1: bimscwit
+#    author2: bima
 ##############################
 
 # 文章分类设置
@@ -80,7 +80,7 @@ menu:
 # 文末声明
 #article_txt: Blog content to follow Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0 ) protocol
 
-bottom_text: ©2018-2020 (Eight)log archive powered by Hexo
+bottom_text: ©2018-2020 8-log
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
