@@ -129,3 +129,75 @@ img.pswp__img
 
 
 @import "mobile.styl"
+
+/* =============================================================================
+   Local search
+   ========================================================================== */
+
+
+#local-search-new-result {
+  scroll:auto;
+  overflow:auto;
+  max-height:3in;
+  background-color: #fef;
+  margin-bottom: 50px;
+}
+
+ul.search-new-result-list {
+  padding-left: 10px;
+}
+
+a.search-new-result-title {
+  font-weight: bold;
+}
+
+p.search-new-result {
+  color=#555;
+}
+
+em.search-new-keyword {
+  border-bottom: 1px dashed #4088b8;
+  font-weight: bold;
+}
+
+
+/**
+ * 
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: ""; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+
+/**
+ * Local search box
+ */
+.set .search .search-input {width: 100%;height: 42px;background: transparent;border: 0px;border-bottom:2px solid #6558BC;font-size:20px;padding-top: 20px;}
+.set .search .search-input[type=text]:focus{outline: none;border: 0px;border-bottom:2px solid #6558BC;}
+.set .search .local-search-result {margin-top:30px;}
+.set .search .search-result-list {padding:0;margin: 0;}
+.set .search .search-result-title {font-size:23px;}
+.set .search .search-result {}
+.set .search .search-keyword {background:yellow;padding:2px auto 2px;}
+.set .search li {list-style: none; margin: 0;border-bottom:1px dashed #E3E3E3;}

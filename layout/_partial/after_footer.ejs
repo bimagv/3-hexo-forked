@@ -1,0 +1,13 @@
+<script src="<%- config.root %>js/search_new.js"></script> 
+
+
+<% if (config.search) { %>
+    <script type="text/javascript">      
+      var search_path = "<%= config.search.path %>";
+      if (search_path.length == 0) {
+          search_path = "search.xml";
+      }
+      var path = "<%= config.root %>" + search_path;
+      searchFunc(path, 'local-search-new-input', 'local-search-new-result');
+    </script>
+ <% } %>

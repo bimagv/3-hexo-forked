@@ -212,6 +212,11 @@ mermaid:
 friends:
   叶落阁: http://yelog.org/
 
+##########local search#############
+search:
+  path: search.xml
+  field: post
+
 ##########评论设置#############
 comment:
   on: true

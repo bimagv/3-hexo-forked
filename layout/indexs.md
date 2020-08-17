@@ -1,3 +1,10 @@
+<div class="set">
+	<div id="site_search" class="search">
+		<input type="text" id="local-search-new-input" class="search-input" placeholder="What are you looking for？" />
+	    <div id="local-search-new-result" class="local-search-new-result"></div>
+	</div>
+</div>
+
 # Why Blogging
 To create, organizing knowladge that very useful in future.
 

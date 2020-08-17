@@ -34,6 +34,8 @@
             <a  class="dashang" onclick="dashangToggle()">赏</a>
         </p>-->
         <%}%>
+        <%- partial('_partial/index', {index: true}) %>
+        <%- partial('_partial/after_footer') %>
         <%- partial('_partial/comment', {post: {comments: true}, index: false})%>
     </div>
     <div class="copyright">
