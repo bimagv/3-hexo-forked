@@ -217,6 +217,12 @@ search:
   path: search.xml
   field: post
 
+########## hexo-generator-index-updated #############
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -updated
+
 ##########评论设置#############
 comment:
   on: true
