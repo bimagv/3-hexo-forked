@@ -359,11 +359,28 @@ function inputChange(e) {
 $('#tagsWitchIcon').on('click', function () {
     $("#tagswitch").trigger('click');
 })
+$('#fuckinWitchIcon').on('click', function () {
+    $("#fuckinswitch").trigger('click');
+})
+
 /*是否展示标签列表*/
 $("#tagswitch").on("change", function (e) {
     $(".nav-right .tags-list").css("display", $(this).prop("checked") ? "block" : "none");
     // 51 为 .tags-list 的 margin-top + margin-bottom + form 的 border-bottom  || 1 为 form 的 border-bottom
     var top = $(this).prop("checked") ? $(".nav-right form").height() + $(".nav-right .tags-list").height() + 51 : $(".nav-right form").height() + 1;
+    if ($(window).width() > 426) {
+        var height = $(document).height() - top - 11;// 11 为nav的border-top + padding-bottom
+    }  else {
+        height = $(document).height() - top - $('.nav-left').height() - 11;// 11 为nav的border-top + padding-bottom
+    }
+    $(".nav-right nav, #local-search-result").css({"top": top, "height": height});
+});
+
+/*Fuckinswitch*/
+$("#fuckinswitch").on("change", function (e) {
+    $(".nav-right .fuckin-list").css("display", $(this).prop("checked") ? "block" : "none");
+    // 51 为 .tags-list 的 margin-top + margin-bottom + form 的 border-bottom  || 1 为 form 的 border-bottom
+    var top = $(this).prop("checked") ? $(".nav-right form").height() + $(".nav-right .fuckin-list").height() + 51 : $(".nav-right form").height() + 1;
     if ($(window).width() > 426) {
         var height = $(document).height() - top - 11;// 11 为nav的border-top + padding-bottom
     }  else {
@@ -423,6 +440,11 @@ $(function () {
     $(".nav-right .tags-list li a").on("click", function (e) {
         $(".nav-right form input").val("#" + $(this).text().trim()).change();
     });
+
+    //fuckinswitch
+    $(".nav-right .fuckin-list li a").on("click", function (e) {
+        $(".nav-right form input").val("#" + $(this).text().trim()).change();
+    });
     //文章toc的显示隐藏事件
     $(".full-toc .post-toc-menu").on('click', function () {
         $('.post-toc').toggleClass('open');
@@ -457,6 +479,9 @@ $(function () {
     }
     // 初始化tag列表宽度
     $('.tags-list').css('width', $('.nav-right').width() - 40)
+
+    //fuckinswitch
+    $('.fuckin-list').css('width', $('.nav-right').width() - 40)
 
     /*友情链接*/
     $('.friends').on('click',function () {

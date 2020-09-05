@@ -2,12 +2,18 @@
     <form onkeydown="if(event.keyCode === 13){return false;}">
         <input id="local-search-input" class="search" type="text" placeholder="<% if (theme.searchAll){%>Full-text search:<%} else {%>Search...<%}%>" />
         <i class="cross"></i>
+        <span style="margin-right: 7em;">
+            <label for="fuckinwitch">Post:</label>
+            <input id="fuckinswitch" type="checkbox" style="display: none" />
+            <i id="fuckinWitchIcon"></i>
+        </span>
         <span>
             <label for="tagswitch">Tags:</label>
             <input id="tagswitch" type="checkbox" style="display: none" />
             <i id="tagsWitchIcon"></i>
         </span>
     </form>
+    <%- partial('_partial/fuckin') %>
     <%- partial('_partial/tag') %>
     <% if (theme.searchAll) { %>
     <div id="local-search-result">
