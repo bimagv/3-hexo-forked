@@ -260,7 +260,6 @@
       padding 10px
       float left
       background #f1f1f1
-      border-radius 25px
       list-style none outside none
       position absolute
       top 65px
@@ -272,50 +271,18 @@
           line-height 18px
           font-size 17px
           float left
-          padding 0 5px 0 10px
+          padding 0 5px 0 6px
           color #4078C0
           position relative
           border-radius 0 5px 5px 0
           margin 5px 9px 5px 8px
           &:before
-            content " "
+            content "\00BB"
             width 0
             height 0
             position absolute
             top 0
-            left -18px
-            border 9px solid transparent
-            border-right-color #d0d0d0
-          &:after
-            content " "
-            width 4px
-            height 4px
-            background-color #fff
-            border-radius 4px
-            box-shadow 0 0 0 1px rgba(0,0,0,.3)
-            position absolute
-            top 7px
-            left 2px
-          &.color1
-            background  #FF945C
-            &:before
-              border-right-color #FF945C
-          &.color2
-            background  #cc8167
-            &:before
-              border-right-color #cc8167
-          &.color3
-            background  #BA8F6C
-            &:before
-              border-right-color #BA8F6C
-          &.color4
-            background #94635c
-            &:before
-              border-right-color#94635c
-          &.color5
-            background #7B5D5F
-            &:before
-              border-right-color#7B5D5F
+            left -7px
 
     nav, #local-search-result
       clear both
