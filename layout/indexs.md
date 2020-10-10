@@ -10,19 +10,14 @@ Visit the [page](space/) for another listing of article and [man](space/man) spa
 
 <header class="global">
 <p class="help">
-	<span>Need Help?</span>
-	<a href="#" onclick="return SnapABug.startLink();" class="chat">
-		Let’s chat!
+	<span>need help?</span>
+	<a href="https://t.me/bimagv" onclick="return SnapABug.startLink();" class="chat">
+		t.me/bimagv
 	</a>
 </p>
   <div class="mimi"></div>
 </header>
 <style>
-body {
-color: #555555;
-letter-spacing: 0;
-font: normal normal 400 16px/1.375 "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 header.global  {
 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
@@ -37,14 +32,14 @@ header.global p.help {
 width: 210px;
 height: 95px;
 background-position: center center;
-background-image: url(https://d1lggihq2bt4jo.cloudfront.net/img/cloud.png);
+background-image: url(https://res.cloudinary.com/bimagv/image/upload/v1602343992/icon/cloud_x7d4vi.png);
 background-repeat: no-repeat;
 position: absolute;
 margin: 0;
-padding: 45px 0 0 20px;
-right: -180px;
+padding: 45px 0 0 0px;
+right: 60px;
 color: #666;
-bottom: 140px;
+bottom: 180px;
 z-index: 1;
 text-align: center;
 font-size: 15px;
@@ -80,7 +75,7 @@ position: absolute;
 bottom: 0;
 right: 0;
 background-position: right top;
-background-image: url(https://d1lggihq2bt4jo.cloudfront.net/img/header_mimi_v2.png);
+background-image: url(https://res.cloudinary.com/bimagv/image/upload/v1602345365/icon/header_werku_qhvi0e.png);
 background-repeat: no-repeat;
 }
 .gradient {
