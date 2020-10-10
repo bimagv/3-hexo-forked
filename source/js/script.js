@@ -352,35 +352,6 @@ $("#fuckinswitch").on("change", function (e) {
     $(".nav-right nav, #local-search-result").css({"top": top, "height": height});
 });
 
-/* Accordion*/
-jQuery(function ($) {
-
-	var $question = $('.question');
-	var $answer = $('.answer');
-
-	$question.click(function(){
-
-		// Hide all answers
-		$answer.slideUp();
-
-		// Check if this answer is already open
-		if($(this).hasClass('open')){
-			// If already open, remove 'open' class and hide answer
-			$(this).removeClass('open')
-			       .next($answer).slideUp();
-		// If it is not open...
-		}else{
-			// Remove 'open' class from all other questions
-			$question.removeClass('open');
-			// Open this answer and add 'open' class
-			$(this).addClass('open')
-			       .next($answer).slideDown();
-				   
-		}
-	});
-
-});
-
 /*隐藏/显示 文章列表*/
 $(".full-toc .full,.semicircle").click(function (e) {
     if ($(window).width() <= 1024 && $(".nav").hasClass("mobile")) {
