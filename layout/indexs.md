@@ -1,4 +1,4 @@
-<div style="margin-top:-3.4em;margin-bottom:-1.8em;"class="gradient">
+<div style="margin-top:-3.4em;margin-bottom:-1em;"class="gradient">
   <h2>8-log Archive</h2>
 </div>
 
@@ -10,8 +10,8 @@ Visit the [page](space/) for another listing of article and space filled with ra
 
 <header class="global">
 <p class="help">
-	<span>need help?</span>
-	<a href="https://t.me/bimagv" onclick="return SnapABug.startLink();" class="chat">
+	<span style="margin-left:-3em;">need help?</span>
+	<a style="margin-left:-3em;"href="https://t.me/bimagv" onclick="return SnapABug.startLink();" class="chat">
 		t.me/bimagv
 	</a>
 </p>
@@ -36,8 +36,8 @@ background-image: url(https://res.cloudinary.com/bimagv/image/upload/v1602343992
 background-repeat: no-repeat;
 position: absolute;
 margin: 0;
-padding: 45px 0 0 0px;
-right: 60px;
+padding: 45px 0 0 20px;
+right: 57px;
 color: #666;
 bottom: 180px;
 z-index: 1;
