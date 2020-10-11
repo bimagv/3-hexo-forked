@@ -1,4 +1,4 @@
-<div style="margin-top:-3.4em;margin-bottom:-2.5em;"class="gradient">
+<div style="margin-top:-3.4em;margin-bottom:-1.8em;"class="gradient">
   <h2>8-log Archive</h2>
 </div>
 
@@ -6,7 +6,7 @@
 
 This site are build with [hexo](https://hexo.io) *static site generator*.. it's like JAVASCRIPT anyWEH but this archive come in with each topic in one site so, maybe it complicated like my mind.
 
-Visit the [page](space/) for another listing of article and [man](space/man) space filled with random writtings.
+Visit the [page](space/) for another listing of article and space filled with random writtings.
 
 <header class="global">
 <p class="help">
@@ -15,7 +15,7 @@ Visit the [page](space/) for another listing of article and [man](space/man) spa
 		t.me/bimagv
 	</a>
 </p>
-  <div class="mimi"></div>
+  <div class="werku"></div>
 </header>
 <style>
 header.global  {
@@ -68,14 +68,14 @@ header.global p.help a {
 display: block;
 color: #f03;
 }
-header.global .mimi {
+header.global .werku {
 height: 242px;
 width: 100%;
 position: absolute;
 bottom: 0;
 right: 0;
 background-position: right top;
-background-image: url(https://res.cloudinary.com/bimagv/image/upload/v1602345365/icon/header_werku_qhvi0e.png);
+background-image: url(https://res.cloudinary.com/bimagv/image/upload/v1602401078/icon/header_werku_z18vh3.png);
 background-repeat: no-repeat;
 }
 .gradient {
@@ -118,7 +118,7 @@ background-repeat: no-repeat;
             color-stop(20%,rgba(0,0,0,1)),
             color-stop(100%,rgba(0,0,0,0)));
               font-weight: normal;*/
-  font-size: 4em;
+  font-size: 2.8em;
   width: 505px;
 }
 </style>
