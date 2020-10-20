@@ -4,10 +4,6 @@
 
 <div style="background: transparent url(https://api.netlify.com/api/v1/badges/95b6550b-d1cb-44d6-912d-011055d10ccd/deploy-status) no-repeat; height: 50px; width: 300px;"></div>
 
-This site are build with [hexo](https://hexo.io) *static site generator*.. it's like JAVASCRIPT anyWEH but this archive come in with each topic in one site so, maybe it complicated like my mind.
-
-Visit the [page](space/) for another listing of article and space filled with random writtings.
-
 <header class="global">
 <p class="help">
 	<span style="margin-left:-3em;">need help?</span>
@@ -124,7 +120,7 @@ background-repeat: no-repeat;
 </style>
 
 # Overview
-> This site will be shown all ```post``` article in one place, then the command line reference and other writings will be placed in [space](space/)
+> This site just a blog mainly in networking and another writings will be placed in [space](space/)
 
 <h2><i class="fa fa-question-circle"></i> Search</h2>
 Searching the article should be easy with full-text search and per word. I won't lose any writing records. if you're on the server, it's possible! to searching this material in command line 
