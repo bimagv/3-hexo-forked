@@ -4,10 +4,8 @@
 <div style="background: transparent url(https://api.netlify.com/api/v1/badges/95b6550b-d1cb-44d6-912d-011055d10ccd/deploy-status) no-repeat; height: 50px; width: 300px;"></div>
 <header class="global">
 <p class="help">
-	<span style="margin-left:-3em;">need help?</span>
-	<a style="margin-left:-3em;"href="https://t.me/bimagv" onclick="return SnapABug.startLink();" class="chat">
-		t.me/bimagv
-	</a>
+<span style="margin-left:-3em;">need help?</span>
+<a style="margin-left:-3em;"href="https://t.me/bimagv" onclick="return SnapABug.startLink();" class="chat">t.me/bimagv</a>
 </p>
   <div class="werku"></div>
 </header>
