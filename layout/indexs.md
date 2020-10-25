@@ -1,23 +1,17 @@
 <div style="margin-top:-3.4em;margin-bottom:-1em;"class="gradient">
-  <h2>8-log Archive</h2>
+  <h1>8-log Archive</h1>
 </div>
 <div style="background: transparent url(https://api.netlify.com/api/v1/badges/95b6550b-d1cb-44d6-912d-011055d10ccd/deploy-status) no-repeat; height: 50px; width: 300px;"></div>
 
-# Overview
-> This site just a blog mainly in networking and another writings will be placed in [space](space/)
-
 <h2><i class="fa fa-question-circle"></i> Search</h2>
-Searching the article should be easy with full-text search and per word. I won't lose any writing records. if you're on the server, it's possible! to searching this material in command line 
+Searching the article should be easy with full-text search and per-word to search any writing records. If you're on the server it possible to searching this material in command line interface
 
 ```
 $ python auto.py
+...
 ```
 
-Alternatively just running on the server
-
-```
-$ git clone 
-```
+* I will update soon
 
 This archive was set with keybinds or keyboard shortcut. scroll up/scroll down: ```j``` /```k```,  full-text search: ```i```, full full-screen: ```s```, post-toc-menu: ```w```
 
