@@ -1,6 +1,4 @@
-<div style="margin-top:-3.4em;margin-bottom:-1em;"class="gradient">
-  <h1>8-log Archive</h1>
-</div>
+## 8-log Archive
 <div style="background: transparent url(https://api.netlify.com/api/v1/badges/95b6550b-d1cb-44d6-912d-011055d10ccd/deploy-status) no-repeat; height: 50px; width: 300px;"></div>
 
 <h2><i class="fa fa-question-circle"></i> Search</h2>
